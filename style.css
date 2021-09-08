@@ -52,3 +52,10 @@ nav {
 .main > * {
   border-top: 2px solid grey;
 }
+
+.footer {
+  color: rgb(24, 4, 4);
+  background-image: linear-gradient(white, pink, royalblue, navy);
+  padding: 20px;
+  text-align: center;
+}
