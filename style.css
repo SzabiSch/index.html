@@ -1,0 +1,54 @@
+header {
+  padding: 30px 15px;
+  text-align: center;
+  background-color: gainsboro;
+}
+
+.student {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+.student::after {
+  content: "🧑‍🏫";
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+body {
+  margin: 0;
+}
+nav {
+  font-size: 20px;
+  font-family: roboto;
+
+  padding: 3px;
+}
+
+/* Darüber gehen und wird gefärbt*/
+.navigation:hover {
+  color: blue;
+  background-color: yellow;
+}
+
+/* Dynamische Färbung beim click*/
+.navigation:active {
+  color: white;
+  background-color: red;
+  transition: 4s;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Entfernung zw Nav Elementen*/
+.navigation + .navigation {
+  margin-left: 16px;
+}
+/* Trennlinien */
+.main > * {
+  border-top: 2px solid grey;
+}
